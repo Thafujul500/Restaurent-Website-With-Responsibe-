@@ -1,0 +1,373 @@
+html{
+
+    scroll-behavior: smooth;
+
+}
+
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.container{
+
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+
+
+/* Header Start */
+
+header{
+    background-color: #24a19c;
+    padding: 0 1%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.logo{
+
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    border: 2px solid black;
+    border-radius: 50%;
+    color: white;
+    transition: .4s;
+
+
+
+}
+
+
+
+nav ul{
+    
+}
+
+nav ul li{
+    display: block;
+
+
+}
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    line-height: 70px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    transition: .4s;
+}
+
+.logo:hover{
+
+    height: 90px;
+    width: 90px;
+    
+
+}
+
+nav ul li a:hover{
+    background-color: gray;
+    border-radius: 10px;
+    opacity: 0.5;
+    font-size: 25px;
+    color: black;
+    font-weight: 700;
+}
+
+/* Header End */
+
+/* Main Start */
+/* Banner section start */
+
+main{
+  
+
+}
+
+.banner-section{
+    background-image: url('Images/banner-image.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* height: 500px; */
+}
+
+.banner-container{
+
+    padding: 50px 10px;
+    text-align: center;
+
+}
+
+.banner-container h1{
+    width: 80%;
+    margin: 15px auto;
+    font-family: 'Handlee', cursive;
+    font-size: 3rem;
+    background-color: rgba(225,225,0,0.884);
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+
+
+
+}
+
+.banner-container p{
+
+    width: 300px;
+    margin: 15px auto;
+    background-color: rgba(0,128,0);
+    color: white;
+    padding: 10px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+
+.btn{
+    width: 160px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    color: white;
+    border: none;
+    background-color: rgba(0,128,0);
+    transition: .4s;
+    text-transform: capitalize;
+    font-weight: bold;
+
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+/* Banner section end */
+
+
+/* About section start */
+
+.about-us-contents{
+    text-align: center;
+    padding: 1%;
+
+}
+
+.about-us-contents h3{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+    
+}
+
+
+.about-us-contents p{
+
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+
+    
+}
+
+
+
+
+/* About section end */
+
+/* Food Menu Start */
+
+.food-menu{
+    padding: 1%;
+
+
+}
+
+.card{
+    transition: .5s;
+    border-radius: 10px;
+
+}
+
+
+.card-body{
+
+    text-align: center;
+
+
+}
+
+
+.card-body img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+
+
+
+}
+
+#photo{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-description{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(165,164,164);
+    padding-bottom: 10px;
+
+
+}
+
+.card-description h3{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.card-description > p{
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 5px;
+
+}
+
+.card:hover{
+    transform: scale(1.1);
+
+}
+
+/* constact section start */
+
+.constact-details{
+    background-color: gray;
+    padding: 1%;
+    color: white;
+    text-align: center;
+    height: 250px;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+
+}
+
+.map{
+    width: 100%;
+    height: 250px;
+}
+
+/* constact section end */
+/* Food Menu End */
+/* Main End */
+/* Footer Start */
+footer{
+    color: white;
+    background-color: #060930;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+/* footer p{
+    line-height: 32px;
+    font-size: .8rem;
+    text-align: center;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
